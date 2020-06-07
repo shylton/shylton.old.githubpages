@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+/* INDEX.html */
+#showcase {
+  /* image credit: https://www.pexels.com/photo/view-of-three-people-surfing-1553959/ */
+  background: url(imgs/view-of-three-people-surfing-1553959.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 15px;
+}
+
+.myNavBg {
+  background-color: rgba(0, 0, 0, 1);
+  /* change to 0.8 for cool like apple.com */
+}
+
+#picBox img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  top: 5px;
+}
+
+/* RESUME */
+.mainContainer {
+  max-width: 720px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+}
+
+.SM-header {
+  color: #353744;
+  margin-top: 1rem;
+  padding-bottom: 10px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 65px;
+  z-index: 9999;
+}
+
+.sectTitle {
+  color: #00ab44;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.resumeItem {
+  margin: 10px 0px;
+}
+
+.liCircle {
+  list-style-type: circle;
+  margin-left: -2em;
+}
+
+@media only screen and (min-width:768px) {
+
+  /* right align only when two cols */
+  .right {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+
+  /* right align only when two cols */
+  .right2 {
+    text-align: right;
+  }
+}
